@@ -1,0 +1,1 @@
+{"reg_all":0.08189482468309361,"_runtime":0,"model_type":"svd","svd_precision_at_1":0.5080815179198875,"_step":0,"_timestamp":1.7828671812304251e+09,"optuna_best_hit10":0.69,"n_factors":45,"lr_all":0.013085429414080753,"_wandb":{"runtime":0},"bpr_precision_at_1":0.20660576247364723}

@@ -1,0 +1,12 @@
+{
+  "os":  "macOS-26.5.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2026-07-01T00:47:15.727484Z",
+  "program":  "food_recommender/food_recommender_STRONG_FINAL.ipynb",
+  "codePath":  "food_recommender/food_recommender_STRONG_FINAL.ipynb",
+  "email":  "foyzullah.faiyaz@gmail.com",
+  "root":  "/Users/mdfoyzullah/food_recommender",
+  "host":  "Mac.fritz.box",
+  "executable":  "/opt/anaconda3/bin/python",
+  "writerId":  "egynlxsvrnvymyoao5n7eaojki9n0ttk"
+}

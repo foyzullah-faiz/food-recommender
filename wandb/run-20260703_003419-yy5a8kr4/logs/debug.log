@@ -1,0 +1,27 @@
+2026-07-03 00:34:19,853 INFO    MainThread:59064 [wandb_init.py:setup_run_log_directory():725] Logging user logs to /Users/mdfoyzullah/food_recommender/wandb/run-20260703_003419-yy5a8kr4/logs/debug.log
+2026-07-03 00:34:19,853 INFO    MainThread:59064 [wandb_init.py:setup_run_log_directory():726] Logging internal logs to /Users/mdfoyzullah/food_recommender/wandb/run-20260703_003419-yy5a8kr4/logs/debug-internal.log
+2026-07-03 00:34:19,854 INFO    MainThread:59064 [wandb_init.py:monkeypatch_ipython():644] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x409cec090>
+2026-07-03 00:34:19,854 INFO    MainThread:59064 [wandb_init.py:init():768] calling init triggers
+2026-07-03 00:34:19,854 INFO    MainThread:59064 [wandb_init.py:init():773] wandb.init called with sweep_config: {}
+config: {'n_factors': 69, 'reg_all': 0.0045145546769630686, 'lr_all': 0.026340345910385664, '_wandb': {}}
+2026-07-03 00:34:19,854 INFO    MainThread:59064 [wandb_init.py:init():816] starting backend
+2026-07-03 00:34:19,854 INFO    MainThread:59064 [wandb_init.py:init():831] sending inform_init request
+2026-07-03 00:34:20,199 INFO    MainThread:59064 [wandb_init.py:init():836] backend started and connected
+2026-07-03 00:34:20,201 INFO    MainThread:59064 [wandb_run.py:_label_probe_notebook():1276] probe notebook
+2026-07-03 00:34:20,201 INFO    MainThread:59064 [wandb_run.py:_label_probe_notebook():1286] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2026-07-03 00:34:20,201 INFO    MainThread:59064 [wandb_init.py:init():906] updated telemetry
+2026-07-03 00:34:20,202 INFO    MainThread:59064 [wandb_init.py:init():929] communicating run to backend with 90.0 second timeout
+2026-07-03 00:34:20,785 INFO    MainThread:59064 [wandb_init.py:init():974] starting run threads in backend
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_run.py:_console_start():2523] atexit reg
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_run.py:_redirect():2373] redirect: wrap_raw
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_run.py:_redirect():2442] Wrapping output streams.
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_run.py:_redirect():2465] Redirects installed.
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_init.py:init():1012] run started, returning control to user process
+2026-07-03 00:34:20,850 INFO    MainThread:59064 [wandb_run.py:_finish():2285] finishing run foyzullah-faiyaz-berliner-hochschule-f-r-technik/food-recommender/yy5a8kr4
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [jupyter.py:save_history():435] not saving jupyter history
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [jupyter.py:save_ipynb():362] not saving jupyter notebook
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [wandb_init.py:_jupyter_teardown():629] cleaning up jupyter logic
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [wandb_run.py:_atexit_cleanup():2490] got exitcode: 0
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [wandb_run.py:_restore():2472] restore
+2026-07-03 00:34:20,851 INFO    MainThread:59064 [wandb_run.py:_restore():2478] restore done
+2026-07-03 00:34:21,981 INFO    MainThread:59064 [wandb_run.py:_footer_sync_info():3895] logging synced files

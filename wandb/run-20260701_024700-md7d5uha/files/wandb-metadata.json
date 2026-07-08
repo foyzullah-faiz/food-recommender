@@ -1,0 +1,33 @@
+{
+  "os":  "macOS-26.5.1-arm64-arm-64bit",
+  "python":  "CPython 3.12.7",
+  "startedAt":  "2026-07-01T00:47:00.920472Z",
+  "program":  "food_recommender/food_recommender_STRONG_FINAL.ipynb",
+  "codePath":  "food_recommender/food_recommender_STRONG_FINAL.ipynb",
+  "email":  "foyzullah.faiyaz@gmail.com",
+  "root":  "/Users/mdfoyzullah/food_recommender",
+  "host":  "Mac.fritz.box",
+  "executable":  "/opt/anaconda3/bin/python",
+  "cpu_count":  10,
+  "cpu_count_logical":  10,
+  "disk":  {
+    "/":  {
+      "total":  "494384795648",
+      "used":  "421374046208"
+    }
+  },
+  "memory":  {
+    "total":  "17179869184"
+  },
+  "apple":  {
+    "name":  "Apple M4",
+    "ecpuCores":  6,
+    "pcpuCores":  4,
+    "gpuCores":  10,
+    "memoryGb":  16,
+    "swapTotalBytes":  "13958643712",
+    "ramTotalBytes":  "17179869184",
+    "macModel":  "Mac16,12"
+  },
+  "writerId":  "5qma180401n72c13rok2sihmhocz99c4"
+}

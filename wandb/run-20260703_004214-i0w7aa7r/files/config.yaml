@@ -1,0 +1,53 @@
+_wandb:
+    value:
+        cli_version: 0.28.0
+        e:
+            nxi9ye66mkonymwizhl4wssxxw52oigz:
+                codePath: food_recommender/food_recommender_ULTIMATE_FINAL.ipynb
+                email: foyzullah.faiyaz@gmail.com
+                executable: /opt/anaconda3/envs/food_rec/bin/python
+                host: Mac.fritz.box
+                os: macOS-26.5.1-arm64-arm-64bit
+                program: food_recommender/food_recommender_ULTIMATE_FINAL.ipynb
+                python: CPython 3.11.14
+                root: /Users/mdfoyzullah/food_recommender
+                startedAt: "2026-07-02T22:42:14.685319Z"
+                writerId: nxi9ye66mkonymwizhl4wssxxw52oigz
+        m: []
+        python_version: 3.11.14
+        t:
+            "1":
+                - 1
+                - 5
+                - 11
+                - 35
+                - 49
+                - 53
+                - 75
+            "2":
+                - 1
+                - 5
+                - 11
+                - 35
+                - 49
+                - 53
+                - 75
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.11.14
+            "5": 0.28.0
+            "6": 5.12.1
+            "8":
+                - 1
+            "10":
+                - 20
+            "12": 0.28.0
+            "13": darwin-arm64
+lr_all:
+    value: 0.016864122881649617
+n_factors:
+    value: 51
+reg_all:
+    value: 0.003610453865349416

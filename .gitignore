@@ -1,0 +1,25 @@
+# Large data files
+data/RAW_interactions.csv
+data/RAW_recipes.csv
+data/recipes_clean_prelim.csv
+data/recipes_clean.csv
+data/interactions_clean.csv
+data/interactions_train.csv
+data/interactions_clean_train.csv
+data/interactions_test.csv
+data/interactions_clean_test.csv
+data/interactions_validation.csv
+
+# Large model files
+models/text_embeddings.npy
+models/recipe_matrix.npy
+models/svd_best.pkl
+models/bpr_tuned.pkl
+models/final_model.pkl
+models/svd_model.pkl
+models/bpr_model.pkl
+
+# System files
+.DS_Store
+.ipynb_checkpoints
+__pycache__
