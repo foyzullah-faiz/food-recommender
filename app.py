@@ -15,12 +15,11 @@ LBL = ["diabetic_ok","low_sodium","low_calorie","high_protein","low_fat",
         "high_fiber","heart_healthy","vegetarian","vegan","gluten_free","dairy_free"]
 
 @st.cache_data
-def load():
+import os
+if os.path.exists("data/recipes_clean.csv"):
     df = pd.read_csv("data/recipes_clean.csv")
-    for col in LBL:
-        if col not in df.columns: df[col] = 0
-    return df
-
+else:
+    df = pd.read_csv("data/recipes_sample.csv")
 df = load()
 nut = df[NUM].copy()
 for c, mx in FM.items(): nut[c] = nut[c].fillna(0) / mx
