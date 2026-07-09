@@ -1,4 +1,4 @@
-
+import os
 import streamlit as st
 import pandas as pd
 import numpy as np
@@ -15,11 +15,10 @@ LBL = ["diabetic_ok","low_sodium","low_calorie","high_protein","low_fat",
         "high_fiber","heart_healthy","vegetarian","vegan","gluten_free","dairy_free"]
 
 @st.cache_data
-import os
-if os.path.exists("data/recipes_clean.csv"):
-    df = pd.read_csv("data/recipes_clean.csv")
-else:
-    df = pd.read_csv("data/recipes_sample.csv")
+def load():
+    if os.path.exists("data/recipes_clean.csv"):
+        return pd.read_csv("data/recipes_clean.csv")
+    return pd.read_csv("data/recipes_sample.csv")
 df = load()
 nut = df[NUM].copy()
 for c, mx in FM.items(): nut[c] = nut[c].fillna(0) / mx
